@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+  .g-button {
+     width: 100%!important;
+  }
+  
+  @layer base {
+    * {
+        @apply font-[Poppins]
+    }
+      button {
+          @apply p-3 cursor-pointer rounded-md 
+      }
+  }

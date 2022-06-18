@@ -1,0 +1,49 @@
+{
+  "name": "property-finder",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^1.5.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "autoprefixer": "^10.4.2",
+    "axios": "^0.26.0",
+    "firebase": "^9.6.8",
+    "google-map-react": "^2.1.10",
+    "postcss": "^8.4.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-google-button": "^0.7.2",
+    "react-icons": "^4.3.1",
+    "react-modal": "^3.14.4",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "tailwindcss": "^3.0.23",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
