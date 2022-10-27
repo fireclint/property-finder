@@ -19,7 +19,7 @@ const style = {
   li: `pr-4 text-sm`,
   buttonWrapper: `hidden md:flex`,
   hamburgerWrapper: `md:hidden flex justify-end cursor-pointer`,
-  mobileMenu: `fixed md:hidden top-20 left-0 w-[60%] h-screen bg-white z-10 ease-in-out duration-500 shadow-lg p-4`,
+  mobileMenu: `fixed md:hidden top-20 left-0 w-[80%] h-screen bg-white z-10 ease-in-out duration-500 shadow-lg p-4`,
   mobileMenuToggle: `fixed md:hidden top-20 left-[-100%] h-screen ease-in-out duration-500`,
   mobileUl: `flex flex-col text-gray-800p py-4`,
   mobileLi: `text-center p-4 border-b border-gray-300 mx-6`,
